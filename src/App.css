@@ -1,0 +1,6 @@
+@layer base {
+  .app-wrapper {
+      @apply lg:px-12 md:px-4 sm:px-4 relative
+  }
+}
+

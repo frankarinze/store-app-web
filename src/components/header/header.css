@@ -1,0 +1,40 @@
+@layer base {
+    .header-banner-wrapper {
+        @apply relative overflow-hidden flex px-3 h-auto  text-black md:w-full sm:w-full my-1;
+    }
+    .header-banner-title {
+        @apply absolute font-semibold text-base bg-white text-center text-black ml-3 py-4 px-12 bottom-0 left-0 h-auto w-60
+
+    }
+    .featured-product-title {
+        @apply  font-semibold text-lg
+    }
+    .featured-product-btn {
+       @apply px-8 py-2 text-white bg-black hover:bg-gray-500 lg:block md:hidden ;
+    }
+    .featured-product-btn-mobile {
+        @apply w-full px-8 py-2 mt-8 text-white bg-black hover:bg-gray-500 lg:hidden  ;
+     }
+
+     .section-wrapper {
+        @apply  py-8 lg:flex lg:justify-between  px-3 h-auto  text-black md:w-full  sm:w-full my-1;
+    }
+    .product-category {
+        @apply text-gray-600 text-left text-lg my-2  font-semibold
+    }
+    .product-description {
+        @apply text-black text-left text-gray-600 text-base
+    }
+    .product-title {
+        @apply text-black text-left font-semibold text-lg
+    }
+    .section-left {
+        @apply pr-14
+    }
+
+    .section-right {
+        @apply lg:pl-14
+    }
+    
+    /* md:absolute bottom-0 w-full left-0 z-20 */
+}

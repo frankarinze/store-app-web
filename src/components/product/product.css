@@ -1,0 +1,24 @@
+@layer base {
+    .product-item-wrapper {
+        @apply mx-3 lg:grid grid-cols-3 lg:gap-x-9 md:grid grid-cols-3 gap-3 md:h-auto md:w-full lg:max-h-96;
+        /* @apply  py-4 px-3 h-auto  grid grid-cols-3 gap-3; */
+    }
+    .product-img-wrapper {
+        @apply relative h-auto  text-black md:w-full w-full sm:w-full my-1;
+    }
+    .product-tag {
+        @apply absolute bg-white text-black top-0 left-0 h-auto w-52;
+    }
+    .product-btn {
+        @apply absolute  px-8 py-2 text-white bg-black bottom-0 w-full left-0  ;
+    }
+    .product-filter-wrapper {
+        @apply mx-4 my-2 mb-4
+        /* @apply  py-4 px-3 h-auto  grid grid-cols-3 gap-3; */
+    }
+    .price-filter-wrapper {
+        @apply mx-4 my-6 mb-4
+        /* @apply  py-4 px-3 h-auto  grid grid-cols-3 gap-3; */
+    }
+
+}

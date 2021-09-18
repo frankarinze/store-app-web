@@ -1,0 +1,17 @@
+@layer base {
+    .sidebar-wrapper {
+        @apply  px-3 h-auto  text-black md:w-full sm:w-full my-1;
+    }
+    
+    .sidebar-title {
+        @apply text-black font-semibold text-lg lg:text-right md:text-left sm:text-left
+    }
+    .meta-details {
+        @apply text-gray-500 py-1
+    }
+    .meta-title {
+        @apply text-black py-2 font-semibold text-lg
+    }
+   
+
+}

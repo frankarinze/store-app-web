@@ -1,0 +1,19 @@
+@layer base {
+    .cart-item-wrapper {
+        @apply grid grid-flow-col h-auto   justify-between text-black md:w-full sm:w-full my-1;
+    }
+    .cart-item-meta {
+        @apply text-left justify-center py-2 inline-block align-middle
+    }
+    .cart-item-img {
+        @apply object-contain h-20 
+    }
+    .cart-item-name {
+        @apply text-left text-black text-base
+    }
+    .cart-item-price {
+        @apply text-left text-gray-500 text-lg
+
+    }
+   
+}

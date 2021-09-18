@@ -1,0 +1,22 @@
+@layer base {
+    .section-wrapper {
+        @apply  py-8 lg:flex lg:justify-between  px-3 h-auto  text-black md:w-full  sm:w-full my-1;
+    }
+    .product-category {
+        @apply text-gray-600 text-left text-lg my-2  font-semibold
+    }
+    .product-description {
+        @apply text-black text-left text-gray-600 text-base
+    }
+    .product-title {
+        @apply text-black text-left font-semibold text-lg
+    }
+    .section-left {
+        @apply pr-14
+    }
+
+    .section-right {
+        @apply lg:pl-14
+    }
+
+}

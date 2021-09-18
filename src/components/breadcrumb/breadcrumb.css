@@ -1,0 +1,7 @@
+@layer base {
+    .breadcrumb-wrapper {
+        @apply  py-4 flex justify-between  px-3 h-auto  text-black  my-1;
+    }
+
+
+}
